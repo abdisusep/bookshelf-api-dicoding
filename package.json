@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bookshelf",
+    "API"
+  ],
+  "author": "Susep Dev",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}
